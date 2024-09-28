@@ -6,103 +6,23 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_age",
-						"type": "uint256"
-					}
-				],
-				"name": "addPerson",
+				"inputs": [],
+				"name": "createSimpleStorage",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "favouriteNumber",
+				"name": "just",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "contract welcome",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"name": "nameTOAge",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "peopleList",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "age",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "retrieve",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_favouriteNumber",
-						"type": "uint256"
-					}
-				],
-				"name": "store",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -119,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidity begi/welcome.sol": "SimpleStorage"
+			"solidity begi/SimpleStorage.sol": "SimpleStorage"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -133,12 +53,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"solidity begi/welcome.sol": {
-			"keccak256": "0x22efed4188cd8ea8a817a9861a30092cf9eb396b6457344d8d0270159b1736c6",
+		"solidity begi/SimpleStorage.sol": {
+			"keccak256": "0xc2fa3b333984d253cc89b6a82b680b0ce1a5a8dfbdbcf854db6ef9b6ccd47ae7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1dc3b3c1cc497462e42a7c8e38d3da73c770562f82db39418ea9b10c540981c3",
-				"dweb:/ipfs/QmaaU9f7FjLGiotiuwTt6GvtkiR3CXbwruPqDwo9o5zS9h"
+				"bzz-raw://8f5750e9d57a8c0466092955a01330acacc551b6b91ee6867d46ac299bdd8c02",
+				"dweb:/ipfs/QmQGzEH1zdE3Ejt4qRDngV6Y6EFQuAukUDW9iRFUicQefz"
+			]
+		},
+		"solidity begi/welcome.sol": {
+			"keccak256": "0x353b5edd03edbd9174ee05dbd1ef6d48fd7560ca68913256b60177a3479c2116",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://71deb42d0bef731a6cd3b45ad1e6e209fbb8b649b4bfb94c8b97cfee556416c6",
+				"dweb:/ipfs/QmRc3rsxr2618GrdqsUWKRxuok6gDdBjtydEEFZQPxFMHV"
 			]
 		}
 	},

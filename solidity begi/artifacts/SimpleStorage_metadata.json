@@ -6,8 +6,82 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "favouriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "nameTOAge",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "peopleList",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrieve",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -60,11 +134,11 @@
 	},
 	"sources": {
 		"solidity begi/welcome.sol": {
-			"keccak256": "0x501ad079241b94c87b4cb20822c41fdd9eec95f95c7a6911f2259827d9cf2308",
+			"keccak256": "0x22efed4188cd8ea8a817a9861a30092cf9eb396b6457344d8d0270159b1736c6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f94c435ebc4c4ed4153c8835ab747eff411d80a05062939cf9a2dec0d6ad254e",
-				"dweb:/ipfs/QmX3aU2GA1hvQ7WufGqN1xA5X5YL4nHBcuTKepXn6PSGNh"
+				"bzz-raw://1dc3b3c1cc497462e42a7c8e38d3da73c770562f82db39418ea9b10c540981c3",
+				"dweb:/ipfs/QmaaU9f7FjLGiotiuwTt6GvtkiR3CXbwruPqDwo9o5zS9h"
 			]
 		}
 	},

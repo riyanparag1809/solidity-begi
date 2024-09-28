@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.27+commit.40a35a09"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "favouriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favouriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity begi/welcome.sol": "SimpleStorage"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity begi/welcome.sol": {
+			"keccak256": "0x501ad079241b94c87b4cb20822c41fdd9eec95f95c7a6911f2259827d9cf2308",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f94c435ebc4c4ed4153c8835ab747eff411d80a05062939cf9a2dec0d6ad254e",
+				"dweb:/ipfs/QmX3aU2GA1hvQ7WufGqN1xA5X5YL4nHBcuTKepXn6PSGNh"
+			]
+		}
+	},
+	"version": 1
+}

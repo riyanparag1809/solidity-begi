@@ -14,7 +14,7 @@ contract welcome{
 
    Person[] public peopleList;
      
-   function store(uint256 _favouriteNumber) public {
+   function store(uint256 _favouriteNumber)  public virtual  {
     favouriteNumber=_favouriteNumber;
    }
    function retrieve() public view returns(uint256){

@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.27+commit.40a35a09"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -13,8 +13,14 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "just",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "justWelcome",
 				"outputs": [
 					{
 						"internalType": "contract welcome",
@@ -23,6 +29,43 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_storageIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "sfGet",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_storageIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_storageNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "sfStore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -54,11 +97,11 @@
 	},
 	"sources": {
 		"solidity begi/SimpleStorage.sol": {
-			"keccak256": "0xc2fa3b333984d253cc89b6a82b680b0ce1a5a8dfbdbcf854db6ef9b6ccd47ae7",
+			"keccak256": "0x6b705a18f9c8b976e1c5046dd1bd113cf8e06f817ce6f062846292dd9397c432",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8f5750e9d57a8c0466092955a01330acacc551b6b91ee6867d46ac299bdd8c02",
-				"dweb:/ipfs/QmQGzEH1zdE3Ejt4qRDngV6Y6EFQuAukUDW9iRFUicQefz"
+				"bzz-raw://23fae33bcdb8ceaab70f7522ac43f3fb87b4ab120ac30c670439094fdb15f21c",
+				"dweb:/ipfs/Qmag1HSksrupijrF9bWh8uWFuqE2PNfGhE6ozMjLCoDSNR"
 			]
 		},
 		"solidity begi/welcome.sol": {

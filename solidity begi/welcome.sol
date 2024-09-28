@@ -1,7 +1,7 @@
 //SPDX-License-Identifier :MIT
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.27;//solidity version
-contract SimpleStorage{
+pragma solidity ^0.8.24;//solidity version
+contract welcome{
      //intialise favoriteNUmber to 0
      uint256  public favouriteNumber;
     struct Person{
@@ -32,4 +32,6 @@ contract SimpleStorage{
     
      
 }
+contract we2{}
+contract we3{}
 //simple smart contract for finance

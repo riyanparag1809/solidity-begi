@@ -119,7 +119,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidity begi/welcome.sol": "welcome"
+			"solidity begi/SimpleStorage.sol": "welcokme"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -133,12 +133,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"solidity begi/welcome.sol": {
-			"keccak256": "0x353b5edd03edbd9174ee05dbd1ef6d48fd7560ca68913256b60177a3479c2116",
+		"solidity begi/SimpleStorage.sol": {
+			"keccak256": "0xd14d6e47298ed0cee17b2eea791ea5228cb8c14d9677a4666e2bb7a231ec767b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://71deb42d0bef731a6cd3b45ad1e6e209fbb8b649b4bfb94c8b97cfee556416c6",
-				"dweb:/ipfs/QmRc3rsxr2618GrdqsUWKRxuok6gDdBjtydEEFZQPxFMHV"
+				"bzz-raw://ff4f042bd970239a7df11b9a4b10e2a5afe7eedd6945bdd044262ea2b5a1d6a5",
+				"dweb:/ipfs/Qmf2KWnPuHKigAv2FB5UkwLi9xVi5icXzX8uYAT3moJonS"
 			]
 		}
 	},

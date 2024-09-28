@@ -97,11 +97,11 @@
 	},
 	"sources": {
 		"solidity begi/SimpleStorage.sol": {
-			"keccak256": "0x6b705a18f9c8b976e1c5046dd1bd113cf8e06f817ce6f062846292dd9397c432",
+			"keccak256": "0x7e80dd59370307098a9749f39dc26536d6d0ada91c3901e25216bbe2d95fb4b8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://23fae33bcdb8ceaab70f7522ac43f3fb87b4ab120ac30c670439094fdb15f21c",
-				"dweb:/ipfs/Qmag1HSksrupijrF9bWh8uWFuqE2PNfGhE6ozMjLCoDSNR"
+				"bzz-raw://a40486bc76006b2cd55d8928448b615813513e07ff54bf40d1ceded3c83e1df1",
+				"dweb:/ipfs/QmSYALc8Y8yYNLX5bx5r8LparHUALBmQdvqymTfYCGuiQW"
 			]
 		},
 		"solidity begi/welcome.sol": {

@@ -15,7 +15,7 @@ contract SimpleStorage{
        newWelcome.store(_storageNumber);
     }
     function sfGet(uint256 _storageIndex) public view returns(uint256){
-        welcome welcomeTrace=justWelcome[_storageIndex] ;
-        return welcomeTrace.retrieve();
+        
+        return justWelcome[_storageIndex].retrieve();
     } 
 }

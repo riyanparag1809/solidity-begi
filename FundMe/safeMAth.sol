@@ -13,7 +13,7 @@
 //  SPDX-License-Identifier: MIT
  pragma solidity ^0.8.27;
 
- contract SAfeMath{
+ contract SafeMath{
     uint8  public raju=255;
     function add(uint8 _raju) public {
          raju=_raju;

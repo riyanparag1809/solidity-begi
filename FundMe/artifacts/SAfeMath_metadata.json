@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.27+commit.40a35a09"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_raju",
+						"type": "uint8"
+					}
+				],
+				"name": "add",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "raju",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"FundMe/safeMAth.sol": "SAfeMath"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"FundMe/safeMAth.sol": {
+			"keccak256": "0xb5e7a7479986cf07ac88bf5ae53b05a20e6e55156b368cb7d98a067789143b13",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://723acae8bb69205485a7caec397af78f6a9e910d2a7dab37e665d81a13f6180a",
+				"dweb:/ipfs/QmdiAc1JqDD36YeXDoDxxeCGGcXqtUoo4reBFd39Lj5JQq"
+			]
+		}
+	},
+	"version": 1
+}

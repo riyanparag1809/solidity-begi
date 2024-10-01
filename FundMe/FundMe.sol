@@ -1,20 +1,22 @@
 //SPDX-License-Identifier:MIT
 pragma solidity ^0.8.27;
 import {PriceConverter} from "./PriceConverter.sol";
+//error can be used for the eliminate require function because as we see string may cost way more gas gas so we use error
+error NotOwner();
 
 
 
 
 contract FundMe {
     using PriceConverter for uint256;
-    uint256 public fundAmounts=3e18;
+    uint256 public constant fundAmounts=3e18;
     address[] Senders;
     mapping(address sender=> uint256 foundedAmount)amountToREciever;
-   address owner; 
+   address immutable i_owner; 
     // Constructor function
     constructor() payable  {
        
-    owner=msg.sender;
+    i_owner=msg.sender;
         
     }
 
@@ -41,7 +43,9 @@ contract FundMe {
         payable(msg.sender).transfer(address(this).balance); // the current contract sends the Ether amount to the msg.sender
 
         bool success = payable(msg.sender).send(address(this).balance);
-        require(success, "Send failed");
+       require(success, "Send failed");
+     
+
 
         (bool successful, ) = payable(msg.sender).call{value: address(this).balance}("");
          require(successful, "Call failed");
@@ -49,9 +53,19 @@ contract FundMe {
     }
    }
     modifier onlyOwner() {
-        require(owner==msg.sender,"your not the sender");
+        // require(i_owner==msg.sender,"your not the sender");
+        if(i_owner!= msg.sender){
+            revert NotOwner();
+        }
         _;
             }
+            receive() external payable {
+                fundMe();
+                }
+            
+             fallback() external payable { 
+                fundMe();
+             }
     
 
    
